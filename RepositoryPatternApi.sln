@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternApi", "RepositoryPatternApi\RepositoryPatternApi.csproj", "{804800C7-50CA-44FB-84BF-0DC4CEF1AC4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{804800C7-50CA-44FB-84BF-0DC4CEF1AC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804800C7-50CA-44FB-84BF-0DC4CEF1AC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804800C7-50CA-44FB-84BF-0DC4CEF1AC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804800C7-50CA-44FB-84BF-0DC4CEF1AC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D9F5A04-50D2-48DA-AF56-17DEAFE441BF}
+	EndGlobalSection
+EndGlobal
