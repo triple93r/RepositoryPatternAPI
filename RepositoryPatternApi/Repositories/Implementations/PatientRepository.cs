@@ -12,6 +12,7 @@ namespace RepositoryPatternApi.Repositories.Implementations
         {
             _context = db;
         }
+
         public int CreatePatient(Patient patient)
         {
             int result = -1;
@@ -66,6 +67,7 @@ namespace RepositoryPatternApi.Repositories.Implementations
                 y.LastName = patient.LastName;
                 y.Adrress = patient.Adrress;
                 y.Age = patient.Age;
+                y.PatientType = patient.PatientType;
                 y.bednum = patient.bednum;
                 y.diagnosis = patient.diagnosis;
                 _context.SaveChanges();
